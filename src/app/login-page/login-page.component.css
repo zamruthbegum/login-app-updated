@@ -1,0 +1,41 @@
+.container {
+    padding: 5%
+}
+
+form {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 0.5px solid grey;
+    padding: 10px;
+    box-shadow:0.1px 0.1px 5.5px 3.1px rgb(0 0 0 / 54%);
+    border-radius: 5px;
+}
+
+mat-form-field {
+    width:100% !important;        
+}
+/* .image-align {
+    -webkit-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+} */
+.preview {
+    max-width: 50%;
+    margin-right:0.1rem;
+    margin-bottom: 0.2rem;
+  }
+  .inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    cursor: pointer;
+    display: inline-block;
+}
+
+
